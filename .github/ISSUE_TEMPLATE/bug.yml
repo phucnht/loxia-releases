@@ -1,0 +1,30 @@
+name: Báo lỗi
+description: Loxia chạy không đúng như mong đợi
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Chuyện gì xảy ra?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Bạn mong đợi gì?
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Thông tin chẩn đoán
+      description: Trong Loxia, vào Settings › Help › Copy rồi dán vào đây.
+  - type: input
+    id: version
+    attributes:
+      label: Phiên bản
+  - type: dropdown
+    id: os
+    attributes:
+      label: Hệ điều hành
+      options:
+        - macOS
+        - Windows

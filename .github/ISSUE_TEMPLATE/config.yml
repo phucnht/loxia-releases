@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Góp ý hoặc câu hỏi khác
+    url: mailto:hello@loxia.dev
+    about: Gửi thư tới hello@loxia.dev nếu không phải lỗi.
+  - name: Báo lỗi bảo mật
+    url: mailto:hello@loxia.dev
+    about: Gửi email riêng, đừng đăng công khai.
